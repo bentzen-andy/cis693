@@ -1,0 +1,24 @@
+.card {
+  margin: 0rem 0 1rem 0;
+  padding: 1rem;
+  max-width: 90%;
+  width: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code {
+  padding: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #234bc0 !important;
+  font-weight: bold !important;
+  background-color: #eee !important;
+}
+
+pre {
+  margin-bottom: 0 !important;
+}
