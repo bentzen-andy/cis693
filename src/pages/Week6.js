@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Card } from "react-bootstrap";
 import styles from "./WeekSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
-import mario from "./mario.png";
 
 const Week6 = () => {
   return (
@@ -53,10 +52,6 @@ const Week6 = () => {
                   Super Mario Bros - GitHub
                 </a>
               </strong>
-            </div>
-            <br />
-            <div>
-              <img src={mario} alt="Super Mario Bros." width="70%" />
             </div>
             <br />
 

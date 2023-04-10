@@ -105,15 +105,6 @@ const Week1 = () => {
                 Line
               </a>
             </div>
-            {/* <div>
-              <a
-                href="https://basic-web-gl-atb.netlify.app/week1/gasket1/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Gasket
-              </a>
-            </div> */}
             <div>
               <a
                 href="https://basic-web-gl-atb.netlify.app/week1/triangle/"

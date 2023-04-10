@@ -2,9 +2,6 @@ import React from "react";
 import { Container, Card } from "react-bootstrap";
 import styles from "./WeekSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
-import machBands from "./wk11-mach-bands.png";
-import smooth from "./wk11-smooth.png";
-import interpolatedNormals from "./wk-11-interpolated-normals.png";
 
 const Week11 = () => {
   return (
@@ -105,31 +102,14 @@ const Week11 = () => {
             <div>
               <strong>AutoCAD Example 1: Mach Bands</strong>
             </div>
-            <div>
-              <img src={machBands} alt="Chair with mach bands" width="100%" />
-            </div>
-            <br />
 
             <div>
               <strong>AutoCAD Example 2: Smooth Shading</strong>
             </div>
-            <div>
-              <img src={smooth} alt="Chair with smooth shading" width="100%" />
-            </div>
-            <br />
 
             <div>
               <strong>Interpolated Normals</strong>
             </div>
-            <div>
-              <img
-                src={interpolatedNormals}
-                alt="Interpolated Normals"
-                width="70%"
-                style={{ borderStyle: "solid" }}
-              />
-            </div>
-            <br />
           </Card.Body>
         </Card>
 

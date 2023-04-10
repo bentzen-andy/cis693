@@ -2,10 +2,6 @@ import React from "react";
 import { Container, Card } from "react-bootstrap";
 import styles from "./WeekSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
-import fullView from "./wk9-full-view.png";
-import options from "./wk9-options.png";
-import parallel from "./wk9-parallel.png";
-import perspective from "./wk9-perspective.png";
 
 const Week9 = () => {
   return (
@@ -57,40 +53,6 @@ const Week9 = () => {
               to get your head around, but it enables us to create some good
               applications (especially in architecture and design).
             </div>
-            <br />
-
-            <div>
-              <strong>Office Chairs in AutoCAD</strong>
-            </div>
-            <div>
-              <img src={fullView} alt="Full view" width="800px" />
-            </div>
-            <br />
-
-            <div>
-              <strong>View Settings in AutoCAD</strong>
-            </div>
-            <div>
-              <img src={options} alt="options" width="300px" />
-            </div>
-            <br />
-
-            <div>
-              <strong>Parallel View from the Front</strong>
-            </div>
-            <div>
-              <img src={parallel} alt="Parallel view" width="800px" />
-            </div>
-            <br />
-
-            <div>
-              <strong>Perspective View from the Front</strong>
-            </div>
-            <div>
-              <img src={perspective} alt="Perspective view" width="800px" />
-            </div>
-            <br />
-
             <br />
 
             <strong>Applications for Perspective Views</strong>
