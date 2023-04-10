@@ -19,7 +19,7 @@ const Home = () => {
             <Card.Title>Computer Graphics Portfolio</Card.Title>
             <Link to="/schedule">Schedule</Link>
 
-            {new Array(15).fill("").map((item, i) => {
+            {new Array(13).fill("").map((item, i) => {
               if (i + 1 <= CURRENT_WEEK) {
                 return (
                   <Link className={styles["link"]} to={`/week-${i + 1}`}>

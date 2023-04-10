@@ -23,7 +23,7 @@ const SideNav = () => {
             <div className={styles["link-text"]}>Schedule</div>
           </span>
         </Link>
-        {new Array(15).fill("").map((item, i) => {
+        {new Array(13).fill("").map((item, i) => {
           if (i + 1 <= CURRENT_WEEK) {
             return (
               <Link className={styles["link"]} to={`/week-${i + 1}`}>

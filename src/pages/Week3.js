@@ -19,12 +19,6 @@ const Week3 = () => {
           <Card.Title>Reading Response</Card.Title>
           <Card.Body>
             <div>On vacation... be back next week.</div>
-
-            <img
-              width="100%"
-              alt="cruise ship"
-              src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1680/840/75/vision-dam/digital/parks-platform/parks-global-assets/disney-cruise-line/ships/wish/DCL_WISH-SIGNATURE-4_JRoh-D-5x2.jpg?2022-03-23T05:13:10+00:00"
-            />
           </Card.Body>
         </Card>
       </Container>

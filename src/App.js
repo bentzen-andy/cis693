@@ -18,8 +18,6 @@ import Week10 from "./pages/Week10";
 import Week11 from "./pages/Week11";
 import Week12 from "./pages/Week12";
 import Week13 from "./pages/Week13";
-import Week14 from "./pages/Week14";
-import Week15 from "./pages/Week15";
 
 const App = () => {
   return (
@@ -41,8 +39,6 @@ const App = () => {
         <Route path="week-11/*" element={<Week11 />} />
         <Route path="week-12/*" element={<Week12 />} />
         <Route path="week-13/*" element={<Week13 />} />
-        <Route path="week-14/*" element={<Week14 />} />
-        <Route path="week-15/*" element={<Week15 />} />
 
         <Route path="*" element={<NotFound />} />
       </Route>
