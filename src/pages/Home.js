@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Breadcrumbs from "../components/Breadcrumbs";
 import styles from "./Home.module.css";
 
-let CURRENT_WEEK = 1;
+let CURRENT_SPRINT = 0;
 
 const Home = () => {
   return (
@@ -19,12 +19,18 @@ const Home = () => {
             <Card.Title>Computer Graphics Portfolio</Card.Title>
             <Link to="/schedule">Schedule</Link>
 
-            {new Array(13).fill("").map((item, i) => {
-              if (i + 1 <= CURRENT_WEEK) {
+            <Link className={styles["link"]} to={`/requirements`}>
+              <span>
+                <div className={styles["link-text"]}>{`Requirements`}</div>
+              </span>
+            </Link>
+
+            {new Array(6).fill("").map((item, i) => {
+              if (i + 1 <= CURRENT_SPRINT) {
                 return (
-                  <Link className={styles["link"]} to={`/week-${i + 1}`}>
+                  <Link className={styles["link"]} to={`/sprint-${i + 1}`}>
                     <span>
-                      <div className={styles["link-text"]}>{`Week ${
+                      <div className={styles["link-text"]}>{`Sprint ${
                         i + 1
                       }`}</div>
                     </span>
@@ -34,7 +40,7 @@ const Home = () => {
                 return (
                   <div className={styles["text"]}>
                     <span>
-                      <div className={styles["link-text"]}>{`Week ${
+                      <div className={styles["link-text"]}>{`Sprint ${
                         i + 1
                       }`}</div>
                     </span>

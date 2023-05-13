@@ -21,188 +21,93 @@ const Schedule = () => {
             <table>
               <thead>
                 <tr>
-                  <th className={styles["col-1"]}>Week #</th>
+                  <th className={styles["col-1"]}>Sprint</th>
                   <th className={styles["col-2"]}>Date</th>
-                  <th className={styles["col-3"]}>Assigned Reading/Video</th>
-                  <th className={styles["col-4"]}>Topic </th>
-                  <th className={styles["col-5"]}>Homework</th>
-                  <th className={styles["col-6"]}>Link</th>
+                  <th className={styles["col-3"]}>Topic</th>
+                  <th className={styles["col-4"]}>Description</th>
+                  <th className={styles["col-5"]}>Deliverable</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th>Week 1</th>
-                  <td>9-Jan</td>
-                  <td>Angel ch 1-2</td>
-                  <td>Intro stuff &amp; graphics programming</td>
-                  <td>Reading response </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 2</th>
-                  <td>16-Jan</td>
-                  <td>Hocking ch 1</td>
-                  <td>Getting to know Unity</td>
-                  <td>Short reading response</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 3</th>
-                  <td>23-Jan</td>
-                  <td>Vacation (cruise)</td>
-                  <td></td>
-                  <td>No homework</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 4</th>
-                  <td>30-Jan</td>
-                  <td>Hocking ch 11 &amp; YouTube</td>
-                  <td>Playing audio: sound effects and music</td>
-                  <td>Simple Galaga clone</td>
-                  <td>https://www.youtube.com/watch?v=-on5HRW8v1A</td>
-                </tr>
-                <tr>
-                  <th>Week 5</th>
-                  <td>6-Feb</td>
+                  <td>1</td>
+                  <td>5/14 - 5/27</td>
+                  <td>Requirements</td>
                   <td>
-                    Angel ch 3 <strong>and ch 4</strong>
-                  </td>
-                  <td>Interaction and animation</td>
-                  <td>Reading response </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 6</th>
-                  <td>13-Feb</td>
-                  <td>Hocking ch 6</td>
-                  <td>Creating a basic 2D platformer</td>
-                  <td>Super Mario (NES) clone</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 7</th>
-                  <td>20-Feb</td>
-                  <td>
-                    <del>Angel ch 4</del> <strong>Hocking ch 6-7</strong>
+                    I'll draw up some written requirements, diagrams, and work
+                    through a test deployment for iOS. I'm not sure yet how to
+                    deploy to Android yet, as I don't own an Android device to
+                    use for testing. Stretch goal: get a Haworth furniture CAD
+                    model working in my scene.
                   </td>
                   <td>
-                    <del>Geometric objects and transformations</del>{" "}
-                    <strong>Additional features for Super Mario Bros.</strong>
-                  </td>
-                  <td>
-                    <del>Reading response</del>{" "}
-                    <strong>Super Mario (NES) clone</strong>
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 8</th>
-                  <td>27-Feb</td>
-                  <td>
-                    <del>Hocking ch 7</del> <strong>Unity Tutorial</strong>
-                  </td>
-                  <td>
-                    <del>Putting a GUI into a game</del>{" "}
-                    <strong>First Person Shooter Demo</strong>
-                  </td>
-                  <td>
-                    <del>Super Mario (NES) clone - GUI</del>{" "}
-                    <strong>Very small FPS game</strong>
-                  </td>
-                  <td>
-                    <strong>https://www.youtube.com/watch?v=_QajrabyTJc</strong>
+                    (1) Requirements writeup, (2) wireframes, (3) data-flow
+                    diagram, (4) preliminary working build of the app.
                   </td>
                 </tr>
                 <tr>
-                  <th>Week 9</th>
-                  <td>6-Mar</td>
-                  <td>Angel ch 5</td>
-                  <td>Viewing</td>
-                  <td>Reading response </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 10</th>
-                  <td>13-Mar</td>
+                  <td>2</td>
+                  <td>5/28 - 6/10</td>
+                  <td>Backend</td>
+                  <td>Create a database with furniture CAD models. </td>
                   <td>
-                    Hocking ch 2<strong> and Brackeys demo</strong>
-                  </td>
-                  <td>Building a demo that puts you in 3D space</td>
-                  <td>Doom clone part 1: movement </td>
-                  <td>
-                    <strong>
-                      https://www.youtube.com/playlist?list=PLPV2KyIb3jR5PhGqsO7G4PsbEC_Al-kPZ
-                    </strong>
+                    Sprint 2 summary (short writeup and/or video journal on
+                    YouTube.)
                   </td>
                 </tr>
                 <tr>
-                  <th>Week 11</th>
-                  <td>20-Mar</td>
-                  <td>Angel ch 6</td>
-                  <td>Lighting and shading</td>
-                  <td>Reading response </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 12</th>
-                  <td>27-Mar</td>
+                  <td>3</td>
+                  <td>6/11 - 6/24</td>
+                  <td>Frontend</td>
                   <td>
-                    Hocking ch 3<strong> and Brackeys demo</strong>
+                    Build out the UI that connects to the DB to insert CAD
+                    models.
                   </td>
-                  <td>Adding enemies and projectiles to the 3D game</td>
-                  <td>Doom clone part 2: enemies </td>
                   <td>
-                    <strong>
-                      https://www.youtube.com/playlist?list=PLPV2KyIb3jR5PhGqsO7G4PsbEC_Al-kPZ
-                    </strong>
+                    Sprint 3 summary (short writeup and/or video journal on
+                    YouTube.)
                   </td>
                 </tr>
                 <tr>
-                  <th>Week 13</th>
-                  <td>3-Apr</td>
-                  <td>Angel ch 7</td>
-                  <td>Discrete techniques</td>
-                  <td>Reading response </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <th>Week 14</th>
-                  <td>10-Apr</td>
+                  <td>4</td>
+                  <td>6/25 - 7/8</td>
+                  <td>Deploy</td>
                   <td>
-                    Hocking ch 4<strong> and Brackeys demo</strong>
+                    Get stable version of the app (i.e., app does not crash) and
+                    deploy it to the Apple Store. The app will only have bare
+                    essential features necessary to work. Next, I'll expand the
+                    app with additional features defined in the requirements
+                    list. For example: surface material options; link to Haworth
+                    online store; product descriptions from Haworth; manual
+                    movement of 3D models; improve design/UX for the UI; build
+                    and test Android deployment; etc.
                   </td>
-                  <td>Developing graphics for your game</td>
-                  <td>Doom clone part 3: textures </td>
                   <td>
-                    <strong>
-                      https://www.youtube.com/playlist?list=PLPV2KyIb3jR5PhGqsO7G4PsbEC_Al-kPZ
-                    </strong>
+                    Sprint 4 summary (short writeup and/or video journal on
+                    YouTube.)
                   </td>
                 </tr>
                 <tr>
-                  <th>Week 15</th>
-                  <td>17-Apr</td>
-                  <td>YouTube</td>
+                  <td>5</td>
+                  <td>7/9 - 7/22</td>
+                  <td>Bugfixes & Final Features</td>
+                  <td>Implement any final "nice-to-have" features.</td>
                   <td>
-                    Misc topics: will get feedback from prof to make final
-                    improvements to the game.{" "}
-                    <strong> and Brackeys demo</strong>
-                  </td>
-                  <td>Doom clone - finishing touches</td>
-                  <td>
-                    <strong>
-                      https://www.youtube.com/playlist?list=PLPV2KyIb3jR5PhGqsO7G4PsbEC_Al-kPZ
-                    </strong>
+                    Sprint 5 summary (short writeup and/or video journal on
+                    YouTube.)
                   </td>
                 </tr>
                 <tr>
-                  <th>Week 16</th>
-                  <td>24-Apr</td>
-                  <td></td>
-                  <td>Open </td>
-                  <td></td>
-                  <td></td>
+                  <td>6</td>
+                  <td>7/23 - 8/5</td>
+                  <td>Poster/Report </td>
+                  <td>
+                    No new features after 7/23. Polish the existing features.
+                    Fix existing bugs. Code Freeze on 7/29 at 11:59 PM. Final
+                    deployment, poster, write-up, and presentation slides to be
+                    worked on from 7/30 through 8/5.
+                  </td>
+                  <td>(1) Report, (2) poster, (3) link to deployed app</td>
                 </tr>
               </tbody>
             </table>

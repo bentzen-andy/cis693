@@ -1,16 +1,16 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
-import styles from "./WeekSummary.module.css";
+import styles from "./SprintSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
 
-const Week2 = () => {
+const Sprint1 = () => {
   return (
     <>
       <Container style={{ marginTop: "1rem" }}>
         <Breadcrumbs
           links={[
             { link: "/", label: "Home" },
-            { link: null, label: "Week 2" },
+            { link: null, label: "Sprint 1" },
           ]}
         />
       </Container>
@@ -78,4 +78,4 @@ const Week2 = () => {
   );
 };
 
-export default Week2;
+export default Sprint1;

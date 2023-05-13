@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 import styles from "./SideNav.module.css";
 
-let CURRENT_WEEK = 1;
+let CURRENT_SPRINT = 0;
 
 const SideNav = () => {
   return (
@@ -23,12 +23,19 @@ const SideNav = () => {
             <div className={styles["link-text"]}>Schedule</div>
           </span>
         </Link>
-        {new Array(13).fill("").map((item, i) => {
-          if (i + 1 <= CURRENT_WEEK) {
+
+        <Link className={styles["link"]} to={`/requirements`}>
+          <span>
+            <div className={styles["link-text"]}>{`Requirements`}</div>
+          </span>
+        </Link>
+
+        {new Array(6).fill("").map((item, i) => {
+          if (i + 1 <= CURRENT_SPRINT) {
             return (
-              <Link className={styles["link"]} to={`/week-${i + 1}`}>
+              <Link className={styles["link"]} to={`/sprint-${i + 1}`}>
                 <span>
-                  <div className={styles["link-text"]}>{`Week ${i + 1}`}</div>
+                  <div className={styles["link-text"]}>{`Sprint ${i + 1}`}</div>
                 </span>
               </Link>
             );
@@ -36,7 +43,7 @@ const SideNav = () => {
             return (
               <div className={styles["text"]}>
                 <span>
-                  <div className={styles["link-text"]}>{`Week ${i + 1}`}</div>
+                  <div className={styles["link-text"]}>{`Sprint ${i + 1}`}</div>
                 </span>
               </div>
             );
