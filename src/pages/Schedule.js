@@ -34,15 +34,15 @@ const Schedule = () => {
                   <td>5/14 - 5/27</td>
                   <td>Requirements</td>
                   <td>
-                    I'll draw up some written requirements, diagrams, and work
-                    through a test deployment for iOS. I'm not sure yet how to
-                    deploy to Android yet, as I don't own an Android device to
-                    use for testing. Stretch goal: get a Haworth furniture CAD
-                    model working in my scene.
+                    I'll draw up some written requirements and work through a
+                    test deployment for iOS. I'm not sure yet how to deploy to
+                    Android yet, as I don't own an Android device to use for
+                    testing. Stretch goal: get a 3D furniture CAD model working
+                    in my scene.
                   </td>
                   <td>
-                    (1) Requirements writeup, (2) wireframes, (3) data-flow
-                    diagram, (4) preliminary working build of the app.
+                    (1) Requirements writeup, (2) preliminary working build of
+                    the app.
                   </td>
                 </tr>
                 <tr>

@@ -49,6 +49,12 @@ const SideNav = () => {
             );
           }
         })}
+
+        <Link className={styles["link"]} to={`/privacy-policy`}>
+          <span>
+            <div className={styles["link-text"]}>{`Privacy Policy`}</div>
+          </span>
+        </Link>
       </div>
     </Nav>
   );
