@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 import styles from "./SideNav.module.css";
 
-let CURRENT_SPRINT = 0;
+let CURRENT_SPRINT = 1;
 
 const SideNav = () => {
   return (

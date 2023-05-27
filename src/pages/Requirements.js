@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Card } from "react-bootstrap";
 import styles from "./SprintSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
+import wireframe from "./wireframe.jpg";
 
 const Requirements = () => {
   return (
@@ -102,6 +103,15 @@ const Requirements = () => {
                   products.
                 </li>
               </ul>
+            </div>
+          </Card.Body>
+        </Card>
+
+        <Card className={styles["card"]}>
+          <Card.Title>Wireframe Sketch</Card.Title>
+          <Card.Body>
+            <div>
+              <img src={wireframe} alt="wireframe" width="1000px" />
             </div>
           </Card.Body>
         </Card>

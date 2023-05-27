@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Breadcrumbs from "../components/Breadcrumbs";
 import styles from "./Home.module.css";
 
-let CURRENT_SPRINT = 0;
+let CURRENT_SPRINT = 1;
 
 const Home = () => {
   return (
