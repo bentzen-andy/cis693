@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 import styles from "./SideNav.module.css";
 
-let CURRENT_SPRINT = 2;
+let CURRENT_SPRINT = 3;
 
 const SideNav = () => {
   return (
@@ -30,7 +30,7 @@ const SideNav = () => {
           </span>
         </Link>
 
-        {new Array(6).fill("").map((item, i) => {
+        {new Array(5).fill("").map((item, i) => {
           if (i + 1 <= CURRENT_SPRINT) {
             return (
               <Link className={styles["link"]} to={`/sprint-${i + 1}`}>

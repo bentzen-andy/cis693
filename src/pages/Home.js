@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Breadcrumbs from "../components/Breadcrumbs";
 import styles from "./Home.module.css";
 
-let CURRENT_SPRINT = 2;
+let CURRENT_SPRINT = 3;
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
               </span>
             </Link>
 
-            {new Array(6).fill("").map((item, i) => {
+            {new Array(5).fill("").map((item, i) => {
               if (i + 1 <= CURRENT_SPRINT) {
                 return (
                   <Link className={styles["link"]} to={`/sprint-${i + 1}`}>
